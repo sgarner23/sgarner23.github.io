@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  color: white;
+}
+
+#page-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url(https://media.istockphoto.com/photos/abstract-background-of-geometric-shape-3d-rendering-picture-id1249495546?k=20&m=1249495546&s=612x612&w=0&h=2CqzkLzTKB_KwRA2vRBsm-NsqmB1wvz2-fG5yAHoGII=)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  height: 2.8rem;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.initials-container {
+  font-size: 1.3em;
+  width: 4rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-links-container {
+  display: flex;
+  font-size: 0.85em;
+  width: 20rem;
+  height: 2.6rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-links-container a {
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+
+.stephen {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+span {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+#my-initials {
+  color: #3cb7cb !important;
+}
+
+#my-initials:visited {
+  color: #3cb7cb !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+#page-2 {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #040404; */
+  /* background: rgb(64,64,64);
+background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, rgba(4,4,4,1) 100%); */
+background: rgb(54,54,54);
+background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, rgba(4,4,4,1) 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.page-2-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  /* border: 2px solid orangered; */
+}
+
+.page-2-bottom {
+  height: 50%;
+  width: 100%;
+  /* border: 2px solid lime; */
+}
+
+.project-container {
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+img{
+  height: 15rem;
+  width: auto;
+  border-radius: .75rem;
+  cursor: pointer;
+  /* border: 2px solid purple; */
+}
+
+
+
+.app-box {
+  
+  margin-top: 5rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.app-box:hover {
+  transform: scale(1.1);
+}
+
+.page-2-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-app-description-box {
+  display: none;
+}
+.show-description {
+  text-align: center;
+  height: 15rem;
+  width: 52rem;
+  margin-bottom: 8rem;
+  display: block;
+}
+
+.app-description-p {
+  line-height: 1.5em;
+  margin-top: 1.5rem;
+}
+
+#weather-demo-CTA{
+  display: inline-block;
+  margin-top: 2rem;
+  color:#3cb7cb;
+  text-decoration:none;
+  border:2px solid #3cb7cb;border-radius:4px;
+  padding:8px 14px;
+  font-size:30px;
+}
+
+#weather-demo-CTA:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#page-3 {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #040404; */
+  /* background: rgb(64,64,64);
+background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, rgba(4,4,4,1) 100%); */
+background: rgb(54,54,54);
+background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, rgba(4,4,4,1) 100%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  height: 20rem;
+  width: 50rem;
+}
+
+
+.skill-icons {
+  height: 7rem;
+  width: auto;
+}
+
+#page-4 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #040404;
+  /* background: rgb(64,64,64);
+background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, rgba(4,4,4,1) 100%); */
+background: rgb(54,54,54);
+background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, rgba(4,4,4,1) 100%);
+}
+
+.page-4-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-side-text {
+  height: 19rem;
+  width: 28rem;
+  
+}
+
+.left-side-text p {
+  margin: 2rem;
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: rgb(209, 208, 208);
+  justify-self: flex-end;
+}
+
+.right-side {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+#stephen-pic {
+  height: 25rem;
+  justify-self: flex-start;
+  
+}
+
+
+
+
+
