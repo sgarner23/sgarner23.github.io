@@ -281,9 +281,14 @@ background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, r
   padding-left: 64px;
 }
 
+.pic-container {
+  padding-left: 80px;
+}
+
 #stephen-pic {
   justify-self: center;
   height: 400px;
+  box-shadow: 0px 0px 2px 0px #DADADA;
   width: auto;
 }
 
