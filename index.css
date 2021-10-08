@@ -106,8 +106,13 @@ a:visited {
   /* background-color: #040404; */
   /* background: rgb(64,64,64);
 background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, rgba(4,4,4,1) 100%); */
-background: rgb(54,54,54);
-background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, rgba(4,4,4,1) 100%);
+  background: rgb(54, 54, 54);
+  background: radial-gradient(
+    circle,
+    rgba(54, 54, 54, 1) 0%,
+    rgba(34, 34, 34, 1) 50%,
+    rgba(4, 4, 4, 1) 100%
+  );
   display: flex;
   flex-direction: column;
 }
@@ -124,6 +129,7 @@ background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, r
 .page-2-bottom {
   height: 50%;
   width: 100%;
+  padding-top: 50px;
   /* border: 2px solid lime; */
 }
 
@@ -136,26 +142,21 @@ background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, r
   width: 100%;
 }
 
-
-
-img{
+img {
   height: 15rem;
   width: auto;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   cursor: pointer;
   /* border: 2px solid purple; */
 }
 
-
-
 .app-box {
-  
   margin-top: 5rem;
   width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .app-box:hover {
@@ -185,14 +186,15 @@ img{
   margin-top: 1.5rem;
 }
 
-#weather-demo-CTA{
+#weather-demo-CTA {
   display: inline-block;
   margin-top: 2rem;
-  color:#3cb7cb;
-  text-decoration:none;
-  border:2px solid #3cb7cb;border-radius:4px;
-  padding:8px 14px;
-  font-size:30px;
+  color: #3cb7cb;
+  text-decoration: none;
+  border: 2px solid #3cb7cb;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-size: 30px;
 }
 
 #weather-demo-CTA:hover {
@@ -206,23 +208,27 @@ img{
   /* background-color: #040404; */
   /* background: rgb(64,64,64);
 background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, rgba(4,4,4,1) 100%); */
-background: rgb(54,54,54);
-background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, rgba(4,4,4,1) 100%);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  background: rgb(54, 54, 54);
+  background: radial-gradient(
+    circle,
+    rgba(54, 54, 54, 1) 0%,
+    rgba(34, 34, 34, 1) 50%,
+    rgba(4, 4, 4, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+
   height: 20rem;
   width: 50rem;
 }
-
 
 .skill-icons {
   height: 7rem;
@@ -235,8 +241,13 @@ align-items: center;
   background-color: #040404;
   /* background: rgb(64,64,64);
 background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, rgba(4,4,4,1) 100%); */
-background: rgb(54,54,54);
-background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, rgba(4,4,4,1) 100%);
+  background: rgb(54, 54, 54);
+  background: radial-gradient(
+    circle,
+    rgba(54, 54, 54, 1) 0%,
+    rgba(34, 34, 34, 1) 50%,
+    rgba(4, 4, 4, 1) 100%
+  );
 }
 
 .page-4-container {
@@ -257,7 +268,6 @@ background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, r
 .left-side-text {
   height: 19rem;
   width: 28rem;
-  
 }
 
 .left-side-text p {
@@ -280,10 +290,4 @@ background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 50%, r
 #stephen-pic {
   height: 25rem;
   justify-self: flex-start;
-  
 }
-
-
-
-
-
