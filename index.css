@@ -282,7 +282,9 @@ background: radial-gradient(circle, rgba(64,64,64,1) 0%, rgba(13,13,13,1) 50%, r
 }
 
 #stephen-pic {
-  justify-self: flex-start;
+  justify-self: center;
+  height: 400px;
+  width: auto;
 }
 
 .profile-image {
